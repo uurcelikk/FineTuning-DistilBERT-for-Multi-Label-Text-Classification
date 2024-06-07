@@ -59,3 +59,24 @@ These metrics are computed using a custom function to handle multi-label classif
 Install the required packages using pip:
 ```bash
 pip install -U numpy pandas matplotlib seaborn torch transformers sklearn accelerate
+```
+Prepare the Data
+Ensure that the quotes.csv file is in the root directory or modify the data loading path in Main.ipynb.
+
+## Running the Project
+
+### Clone the Repository:
+
+```bash
+git clone https://github.com/uurcelikk/FineTuning-DistilBERT-for-Multi-Label-Text-Classification.git
+cd FineTuning-DistilBERT-for-Multi-Label-Text-Classification
+```
+
+## Applications
+This project can be adapted for various multi-label text classification tasks such as:
+
+Categorizing scientific articles into different disciplines.
+Classifying multilingual texts by leveraging the language-agnostic capabilities of DistilBERT.
+
+## Contributions
+Contributions to improve the model performance, add new features, or enhance the dataset are welcome. Please fork the repository and submit a pull request.
